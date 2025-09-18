@@ -1,1 +1,207 @@
+/* Navbar styling */
+body {
+  margin: 0;
+  font-family: 'Outfit', sans-serif;
+  background-color: #FAF3E0; /* light beige background */
+  color: #2B2B2B; /* dark text */
+}
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #FFFDF7; /* off-white for header */
+  border-bottom: 1px solid #E6D5C3; /* subtle beige divider */
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: #6B4226; /* rich dark brown */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #2B2B2B; /* dark gray/black for links */
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #A97155; /* medium brown highlight */
+}
+
+section {
+  padding: 4rem 2rem;
+  max-width: 1200px;   /* keeps content centered */
+  margin: 0 auto;      /* centers the section */
+}
+
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero-content {
+  flex: 1;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #2B2B2B; /* dark gray/black */
+  margin-bottom: 1rem;
+}
+
+.hero-content h1 span {
+  color: #6B4226; /* dark brown highlight */
+}
+
+.hero-content h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #7D7461; /* muted earthy tone */
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1rem;
+  color: #2B2B2B;
+  margin-bottom: 2rem;
+  max-width: 500px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #A97155; /* medium brown */
+  color: #FFFDF7; /* light text */
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #6B4226; /* darker brown */
+}
+
+.hero-image {
+  flex: 1;
+  text-align: right;
+}
+
+.hero-image img {
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Education Section */
+.education {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #2B2B2B;
+  margin-bottom: 2rem;
+}
+
+.edu-cards {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.edu-card {
+  background-color: #FFFDF7; /* off-white */
+  border: 1px solid #E6D5C3; /* soft beige border */
+  border-radius: 12px;
+  padding: 2rem;
+  flex: 1;
+  min-width: 250px;
+  max-width: 320px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.edu-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.edu-card h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #6B4226; /* dark brown */
+  margin-bottom: 0.5rem;
+}
+
+.edu-card p {
+  font-size: 1rem;
+  color: #2B2B2B;
+  margin-bottom: 0.5rem;
+}
+
+.edu-card span {
+  font-size: 0.9rem;
+  color: #7D7461; /* muted earthy tone */
+}
+
+
+
+
+/* Footer */
+.footer {
+  background-color: #FFFDF7; /* off-white */
+  border-top: 1px solid #E6D5C3; /* subtle beige line */
+  padding: 2rem;
+  text-align: center;
+}
+
+.footer-content p {
+  color: #2B2B2B; /* dark gray */
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #6B4226; /* dark brown */
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #A97155; /* medium brown */
+}
